@@ -1,0 +1,95 @@
+  section {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+
+.loading{
+  color: white;
+  font-size: 20pdx;
+}
+
+.error{
+  color: white;
+  font-size: 20pdx;
+}
+
+.message{
+  color: white;
+  font-size: 20pdx;
+}
+
+  h1,h2 {
+    color: rgb(218, 98, 77);
+  }
+
+  .first-art>p:hover {
+    text-shadow: 0px 0px black;
+    translate: 50px;
+    transform: scale(1.02);
+    transition: 2s;
+  }
+
+  .services1{
+    width: 350px;
+    height: 350px;
+    border-radius: 2%;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(23, 25, 27, 0.067);
+  }
+
+  .info-list {
+    height: 350px;
+    overflow-y: scroll;
+  }
+
+  .services2{
+    width: 800px;
+    border-radius: 2%;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(23, 25, 27, 0.067);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    color: rgb(219, 110, 91);
+    font-weight: bold;
+  }
+
+  .btn-submit {
+    margin-top: 20px;
+  }
+
+  textarea {
+    resize: none;
+    min-height: 80px;
+  }
+
+  .card-title-edit{
+    display: flex;
+    justify-content: center;
+  }
+
+  .create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }

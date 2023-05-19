@@ -1,0 +1,35 @@
+  .footer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .copyRight {
+    display: flex;
+    justify-content: center;
+    color: rgb(87, 87, 149);
+  }
+
+  .build-btn{
+    color: rgb(255, 253, 226);
+  }
+
+  .download{
+    padding: 10px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .download:hover {
+    color: rgb(219, 110, 91);
+  }
+
+  .finish-btn{
+    margin-top: 5px;
+    margin-right: 500px;
+    margin-left: 500px;
+  }

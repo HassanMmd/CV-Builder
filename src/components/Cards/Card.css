@@ -1,0 +1,36 @@
+.card {
+    width: 18rem;
+}
+.text-muted{
+    font-size: 0.8em;
+}
+
+.delete-btn {
+    background-color: rgba(240, 248, 255, 0.359);
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    border: 0px
+}
+
+.delete-btn:hover {
+    border-radius: 20%;
+    background-color: rgb(221, 221, 222);
+    font-size: 12px;
+}
+
+.edit-btn {
+    background-color: rgba(240, 248, 255, 0.359);
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    border: 0px
+}
+
+.edit-btn:hover {
+    border-radius: 20%;
+    background-color: rgb(221, 221, 222);
+}
+
+.delete-edit {
+    display: flex;
+    justify-content: end;
+}
